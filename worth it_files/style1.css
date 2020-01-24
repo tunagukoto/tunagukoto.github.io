@@ -859,6 +859,13 @@ h3 .page-h3 {
 .shadow {
 	box-shadow: -1px 4px 10px rgba(0, 0, 0, 0.07);
 }
+#yunikemi {
+	background-image: url(yunikemi-event.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;	
+	border-radius: 3px;
+}
+
 
 #yukisangyou {
 	background-image: url(yukisangyou-event.jpg);
