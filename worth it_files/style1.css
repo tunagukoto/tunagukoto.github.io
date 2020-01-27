@@ -2161,7 +2161,7 @@ h3.page-h3 {
 }
 span.artist-sub-title {
 	color: #858585;
-	font-size: 1rem;
+	font-size: 1.4rem;
 	display: block;
 	width: 96%;
 	text-align: left;
@@ -6143,7 +6143,7 @@ ul.attention-list-sp li.num_03:before {
 }
 span.artist-sub-title {
   color: #858585;
-  font-size: 1rem;
+  font-size: 1.4rem;
   display: block;
   text-transform: uppercase;
   width: 96%;
