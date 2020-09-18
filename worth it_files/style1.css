@@ -8,6 +8,242 @@ html {
   font-size: 57.5% !important;
 }
 
+rt {
+font-size: 80%;
+}
+
+
+.ht-e-l-02 {
+	background-color: #bfdcdc;
+	border-radius: 50px;}
+
+
+
+
+
+#gaikan {
+	text-align: center;
+	width: 100%;
+}
+
+#gaikan td {
+	margin-bottom: 26px;
+	height: 185px;
+}
+
+#gaikan tr {
+	height: 100%;
+}
+
+.box1 {
+	background-image: url(office-1.jpg);
+	background-size: cover;
+	background-position: bottom;
+	width: 100%;
+}
+
+.box2 {
+	background-image: url(office-2.jpg);
+	background-size: cover;
+	background-position: bottom;
+	width: 100%;  
+}
+
+.box3 { 
+	background-image: url(office-3.jpg);
+	background-size: cover;
+	background-position: bottom; 
+	width: 100%; 
+
+}
+
+.box4 { 
+	background-image: url(office-4.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%; 
+}
+
+.box5 {
+		background-image: url(office-5.jpg);
+	background-size: cover;
+	background-position: top left;
+	width: 100%;   
+}
+
+.box6 {
+		background-image: url(office-6.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%; 
+}
+
+.box7 {
+		background-image: url(office-7.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+.box8 {
+		background-image: url(office-8.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+.box9 {
+		background-image: url(office-9.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+.box10 {
+		background-image: url(office-10.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%; 
+}
+
+.box11 {
+		background-image: url(office-11.jpg);
+	background-size: cover;
+	background-position: 50% 7%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 896px) {
+
+#gaikan {
+	width: 60%;
+	text-align: center;
+	border-spacing: 20px;
+    border-collapse: separate;
+	width: 100%;
+}
+
+#gaikan td {
+  overflow: hidden;
+}
+
+#gaikan tr {
+	height: 185px;
+}
+
+.box1 {
+	background-image: url(office-1.JPG);
+	background-size: cover;
+	background-position: bottom;
+	width: 50%;
+}
+
+.box2 {
+	background-image: url(office-2.JPG);
+	background-size: cover;
+	background-position: bottom;
+	width: 50%;  
+}
+
+.box3 { 
+	background-image: url(office-3.JPG);
+	background-size: cover;
+	background-position: bottom; 
+	width: 50%; 
+
+}
+
+.box4 { 
+	background-image: url(office-4.JPG);
+	background-size: cover;
+	width: 50%; 
+}
+
+.box5 {
+		background-image: url(office-5.JPG);
+	background-size: cover;
+	background-position: top;
+	width: 25%;   
+}
+
+.box6 {
+		background-image: url(office-6.JPG);
+	background-size: cover;
+	width: 25%; 
+}
+
+.box7 {
+		background-image: url(office-7.JPG);
+	background-size: cover;
+	width: 25%;
+}
+
+.box8 {
+		background-image: url(office-8.JPG);
+	background-size: cover;
+	width: 25%;
+}
+
+.box9 {
+		background-image: url(office-9.JPG);
+	background-size: cover;
+	width: 50%;
+}
+
+.box10 {
+		background-image: url(office-10.JPG);
+	background-size: cover;
+	background-position: center;
+	width: 50%; 
+}
+
+.box11 {
+		background-image: url(office-11.JPG);
+	background-size: cover;
+	background-position: 50% 7%;
+	width: 50%;
+}
+
+
+.gaikan {
+	margin-left: 60px;
+	margin-right: 60px; 
+	display: grid; 
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 315px 315px;
+	grid-column-gap: 50px;
+	grid-row-gap: 20px;
+	height: 650px;
+} 
+
+.gaikan > div {
+}
+
+.gaikan > div > img {
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -109,7 +345,7 @@ h1 {
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
-  box-shadow: 8px 8px 8px  #333;
+
 }
 #button::after {
   content: "\f077";
@@ -410,7 +646,7 @@ template {
  # Typography
  --------------------------------------------------------------*/
 body, button, input, select, optgroup, textarea {
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	font-weight: 200;
 	line-height: 1.6;
 	font-feature-settings: "palt";
@@ -457,7 +693,7 @@ body, button, input, select, optgroup, textarea {
 }
 .post_panel .post_meta
 {
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	color: rgba(0,0,0,0.25);
 	font-size: 14px;
 	font-weight: 500;
@@ -469,7 +705,7 @@ body, button, input, select, optgroup, textarea {
 {
 	display: inline-block;
 	position: relative;
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	color: rgba(0,0,0,0.25);
 	font-size: 14px;
 	font-weight: 500;
@@ -489,9 +725,9 @@ body, button, input, select, optgroup, textarea {
 }
 .post_share span
 {
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	font-size: 12px;
-	text-transform: uppercase;
+	text-transform: none;
 	color: rgba(0,0,0,0.2);
 	letter-spacing: 0.075em;
 	font-weight: 700;
@@ -568,7 +804,7 @@ Event post
 }
 .post_body figcaption
 {
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	font-size: 12px;
 	font-style: italic;
 	color: rgba(0,0,0,0.3);
@@ -630,7 +866,6 @@ footer {
 	font-size: 1.3rem;
 }
 .page-title-h1 span {
-	margin-left: 30%;
 	font-weight: 500;
 	font-size: 2rem;
 }
@@ -638,6 +873,7 @@ footer {
 .ht-e-l-02 p {
 	font-weight: 150;
 	font-size: 1.3rem;
+	text-align: left;
 }
 
 .ht-items span {
@@ -656,6 +892,7 @@ footer {
 .ht-e-l-03 p {
 	font-weight: 500;
 	font-size: 1.3rem;
+	text-align: center;
 }
 
 	.post_quote .post_p
@@ -714,6 +951,7 @@ footer {
 .content_w_800 p {
 	font-weight: 500;
 	font-size: 1.3rem;
+	text-align: center;
 }
 
 h3 .page-h3 {
@@ -757,7 +995,7 @@ h3 .page-h3 {
 {
 	display: block;
 	line-height: 22px;
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	font-size: 12px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -775,7 +1013,7 @@ h3 .page-h3 {
 }
 
 .container-width1 h1 {
-	color: #d46237;
+	color: #E85A25;
 	letter-spacing: 4px;
 	text-align: left;
 }
@@ -824,12 +1062,16 @@ h3 .page-h3 {
   .sp-banner {
     display: none;
   }
+  .hr-mobile {
+	  display: none;
+}
 }
 
 
 @media (min-width: 992px) {
 	.date-comments {
 		color: #FFF;
+		margin-right: 13%;
 }
 	p.intro {
 		color: #fff;
@@ -859,6 +1101,29 @@ h3 .page-h3 {
 .shadow {
 	box-shadow: -1px 4px 10px rgba(0, 0, 0, 0.07);
 }
+#ishitoshi {
+	background-image: url(ishitoshi-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;	
+	border-radius: 3px;
+}
+
+#nodaki {
+	background-image: url(nodaki-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;	
+	border-radius: 3px;
+}
+
+
+
+#koeisangyou {
+	background-image: url(koeisangyou-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;	
+	border-radius: 3px;
+}
+
 #yunikemi {
 	background-image: url(yunikemi-event.jpg);
 	background-size: cover;
@@ -1050,7 +1315,8 @@ h3 .page-h3 {
 
 .annai-text {
 	text-align: center;
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
+	margin-top: 6.3rem;
 }
 
 .btn-template-main:hover,
@@ -1066,7 +1332,7 @@ h3 .page-h3 {
   background-size: cover; }
 
 #intro .item {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   height: 100%; }
 
 #intro .item h1 {
@@ -1136,7 +1402,7 @@ ul.footer-link li a:hover {
 		background-image: url(it-kyaria2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center bottom;
+	background-position: center center;
 }
 #ht-items07{
 		background-image: url(it-kyaria3.jpg);
@@ -1186,7 +1452,7 @@ address {
 }
 pre {
   background: #eee;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   font-size: 15px;
   font-size: 0.9375rem;
   line-height: 1.6;
@@ -1196,7 +1462,7 @@ pre {
   padding: 1.6em;
 }
 code, kbd, tt, var {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   font-size: 15px;
   font-size: 0.9375rem;
 }
@@ -1557,7 +1823,7 @@ embed, iframe, object {
 /*contents_cat color*/
 /*font*/
 @font-face {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   src: url('webfonts/39884E_0_0.eot');
   src: url('webfonts/39884E_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/39884E_0_0.woff2') format('woff2'), url('webfonts/39884E_0_0.woff') format('woff'), url('webfonts/39884E_0_0.ttf') format('truetype');
 }
@@ -1806,7 +2072,7 @@ header {
 	width: 100%;
 	border: transparent;
 	margin: 0 auto;
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	z-index: 1111;
 }
 @media only screen and (min-width: 896px) {
@@ -1971,7 +2237,7 @@ ul#primary-menu {
   }
 }
 ul#primary-menu li a {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   color: #000;
   padding: 0 0.3rem;
   opacity: 0.4;
@@ -2028,7 +2294,7 @@ header.scrolled {
   }
 }
 header.scrolled .head-logo {
-  margin: 0;
+  margin: 0;menu
 }
 header.scrolled .head-logo a {
   display: block;
@@ -2070,7 +2336,7 @@ header.scrolled .nav-right {
 }
 .annai-text {
 	text-align: center;
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	font-size: 2rem;
 }
 }
@@ -2109,13 +2375,13 @@ header.scrolled .nav-right .nav-right-bottom-area a.get-btn {
   margin-top: 80px;
 }
   .page-title-h1 {
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	padding-left: 7%;
-	padding-right: 10px;
+	padding-right: 7%;
 	font-size: 3rem;
 	letter-spacing: normal;
 	padding-top: 90px;
-	text-align: left;
+	text-align: center;
   }
   ul.targetlink-list {
   display: block;
@@ -2150,7 +2416,7 @@ span.page-title-bottom-text {
 h3.page-h3 {
 	font-size: 3rem;
 	font-weight: 400;
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	letter-spacing: 0px;
 	margin: 2rem 2rem 0.6rem 0;
 	padding-left: 7%;
@@ -2164,7 +2430,7 @@ span.artist-sub-title {
 	font-size: 1.4rem;
 	display: block;
 	width: 96%;
-	text-align: left;
+	text-align: center;
 }
 span.artist-sub-title02 {
 	color: #333333;
@@ -2232,7 +2498,7 @@ footer h4 {
 }
 .annai-text {
 	text-align: center;
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	font-size: 1.3rem;}
 }
 header.scrolled a.get-btn span {
@@ -2244,12 +2510,12 @@ header.scrolled a.get-btn span {
 
 }
 header.scrolled ul#primary-menu {
-  right: 36%;
+  left: 20%;
 }
 
 @media only screen and (min-width: 1200px) {
   header.scrolled ul#primary-menu {
-    right: 31%;
+    right: 5%;
   }
 }
 header.page-scrolled {
@@ -2489,11 +2755,14 @@ header.page-scrolled ul#primary-menu {
   width: 40%;
 }
 .menu-sp dl.sp-menu-list dt.left a {
-  color: #fff;
-  position: relative;
-  padding: 0 0 0 20px;
-  font-family: "Sawarabi Gothic";
-  font-size: 2rem;
+	color: #fff;
+	position: relative;
+	font-family: "YuGothic Medium";
+	font-size: 2rem;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 10px;
 }
 .menu-sp dl.sp-menu-list dt.left a:before {
   content: "";
@@ -2805,7 +3074,7 @@ header.page-scrolled .morph-dropdown-wrapper {
 }
 .mega-link-text p {
   font-size: 2.4rem;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   line-height: 1.2;
   font-weight: 600;
   margin: 0;
@@ -2856,7 +3125,7 @@ dl.sp_accordion dd {
 	color: #fff;
 	position: relative;
 	padding: 0 0 0 20px;
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	font-size: 24px;
 }
 .sp_switch:before {
@@ -2914,7 +3183,7 @@ h2.bottom-main-message {
   }
 }
 h2.bottom-main-message span.type-n {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   font-size: 3.5rem;
   font-weight: 400;
   letter-spacing: -1px;
@@ -3015,7 +3284,7 @@ a.bass-btn-orange {
   }
 }
 h4 {
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	font-weight: 600;
 	margin: 0;
 	font-size: 2.4rem;
@@ -3114,7 +3383,7 @@ footer {
   }
 }
 .foot-right-bottom-area p {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   color: rgba(255, 255, 255, 0.6);
 }
 .foot-right-bottom-area p.small {
@@ -3705,7 +3974,7 @@ ul.fixed-sns-open li.line {
 }
 .slick-counter {
   display: none;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   padding-top: 20px;
   color: #b4b4b4;
 }
@@ -3744,7 +4013,7 @@ img.main-kv-sp-logo {
   }
 }
 .kv-place-info {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   font-size: 3rem;
   line-height: 1;
   letter-spacing: -2px;
@@ -3825,7 +4094,7 @@ a.kv-news-area span.date {
   display: block;
   color: #858585;
   font-weight: 600;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   margin-left: 0px;
   margin-bottom: 15px;
 }
@@ -3913,10 +4182,13 @@ a.kv-news-area span.date {
 }
 /*Whats New*/
 h2.m__h2 {
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	letter-spacing: 0px;
 	text-align: center;
-	margin: 4rem 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
 }
 @media only screen and (min-width: 580px) {
   h2.m__h2 {
@@ -3925,7 +4197,7 @@ h2.m__h2 {
 }
 @media only screen and (min-width: 896px) {
   h2.m__h2 {
-	font-size: 2rem;
+	font-size: 3rem;
 	letter-spacing: 0px;
   }
 }
@@ -4085,7 +4357,7 @@ h2.m__h2 {
 }
 .home-post-slick-counter {
   display: inline-block;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   padding-top: 20px;
   color: #010101;
   margin-left: 10px;
@@ -4161,7 +4433,7 @@ h2.m__h2 {
   background: #000;
 }
 .post-block-bottom-bar span {
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
   color: #fff;
   text-align: center;
   display: block;
@@ -4235,7 +4507,7 @@ h2.m__h2 {
 a.bass-btn {
   display: block;
   color: #fff;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   background: #276ef1;
   width: 30rem;
   text-align: center;
@@ -4253,7 +4525,7 @@ a.bass-btn {
 h2.m__h2__02 {
   font-size: 6rem;
   font-weight: 400;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   letter-spacing: -2px;
   text-align: center;
   margin: 2rem 0;
@@ -4334,7 +4606,7 @@ h2.m__h2__02 {
 h2.m__h2__03 {
   font-size: 6rem;
   font-weight: 400;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   letter-spacing: -2px;
   margin: 2rem 0;
   line-height: 0.75;
@@ -4492,7 +4764,7 @@ article.whats-peace img {
 }
 span.top-orange-text {
   color: #e85a25 !important;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   margin: 1rem 0 0.5rem 0;
   display: block;
 }
@@ -4509,7 +4781,7 @@ span.top-orange-text {
   }
 }
 h3.en-h3 {
-  font-family: "Sawarabi Gothic";  
+  font-family: "YuGothic Medium";  
   line-height: 1.2;
   font-weight: 600;
 }
@@ -4518,7 +4790,7 @@ h2.m__h2__04 {
 	color: #000000;
 	font-size: 5rem;
 	font-weight: 400;
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	letter-spacing: -2px;
 	margin: 2rem 0;
 	line-height: 1;
@@ -4575,7 +4847,7 @@ h2.m__h2__04 {
 }
 @media only screen and (min-width: 1080px) {
   .ht-e-layout .ht-e-l-02 {
-	width: 30%;
+	width: 60%;
   }
 }
 .ht-e-layout .ht-e-l-03 {
@@ -4583,7 +4855,7 @@ h2.m__h2__04 {
 }
 @media only screen and (min-width: 720px) {
   .ht-e-layout .ht-e-l-03 {
-    width: 50%;
+	width: 47%;
   }
 }
 .ht-e-layout02 {
@@ -4651,7 +4923,7 @@ h2.m__h2__04 {
 }
 .show-text {
 	position: relative;
-	font-size: 2rem;
+	font-size: 2.3rem;
 	color: #FFFFFF;
 	display: block;
 	top: 10%;
@@ -4722,7 +4994,7 @@ span.play-m-btn {
   width: auto;
   height: 0;
   margin-left: 0;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   color: #fff;
   display: inline;
   background: transparent;
@@ -4832,7 +5104,7 @@ article.access-area .a-left-bg {
   .access-left-area {
     width: 30%;
     height: 100%;
-    min-height: 40rem;
+    min-height: 45rem;
   }
 }
 .right-map-area {
@@ -4876,7 +5148,7 @@ article.access-area .a-left-bg {
 a.more-arrow-link {
   display: block;
   color: #e85a25;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   display: inline;
   position: relative;
   left: 0;
@@ -4948,7 +5220,7 @@ ul.support-list li a:hover {
   overflow-x: hidden;
 }
 .page-title-h1 {
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	font-size: 4rem;
 	font-weight: 500;
 	letter-spacing: normal;
@@ -5018,7 +5290,7 @@ ul.category-header-list li.category-header-list-title:after {
   background: #010101;
 }
 ul.category-header-list li a {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   color: #010101;
   display: block;
   padding: 15px 10px 15px 10px;
@@ -5251,7 +5523,7 @@ p.info-big-text {
   margin-bottom: 1.5rem;
 }
 h3.page-h3 {
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	letter-spacing: 0px;
 	margin: 2rem 0 0.6rem 0;
 }
@@ -5569,7 +5841,7 @@ span.q-text:before {
   position: absolute;
   line-height: 1.2;
   content: "Q.";
-  color: #276ef1;
+  color: #E85A25;
   font-size: 2rem;
   left: 0px;
   top: 3px;
@@ -5868,11 +6140,11 @@ input.bass-btn:hover {
 }
 .ticket-block .ticket-block-inner-top .ticket-type span {
   font-size: 1.3rem;
-  color: #858585;
+  color: #E85A25;
   display: block;
 }
 .ticket-block p.price-text {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   font-weight: 600;
   text-align: center;
   font-size: 2rem;
@@ -6096,7 +6368,7 @@ ul.attention-list-sp li.num_03:before {
   color: #fff;
   border: 1px solid #fff;
   padding: 5px 10px;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   font-size: 1.4rem;
 }
 .artist-block {
@@ -6111,7 +6383,7 @@ ul.attention-list-sp li.num_03:before {
   color: #fff;
   border: 1px solid #fff;
   padding: 4px 7px 2px 7px;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   font-size: 1rem;
 }
 @media only screen and (min-width: 720px) {
@@ -6132,7 +6404,7 @@ ul.attention-list-sp li.num_03:before {
   color: #fff;
   border: 1px solid #fff;
   padding: 4px 7px 2px 7px;
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   font-size: 1rem;
 }
 @media only screen and (min-width: 720px) {
@@ -6145,7 +6417,7 @@ span.artist-sub-title {
   color: #858585;
   font-size: 1.4rem;
   display: block;
-  text-transform: uppercase;
+  text-transform: none;
   width: 96%;
 }
 span.artist-sub-title02 {
@@ -6161,7 +6433,7 @@ span.artist-sub-title-h3 {
   margin-bottom: 6px;
 }
 .font-ttnorms {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
 }
 .post-contents-block .home-post-list-right {
   height: auto;
@@ -6271,7 +6543,7 @@ a.orange-link-text:hover {
   }
 }
 a.news-archive-block .news-archive-block-inner .news-archive-right__top .cat-icon {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   display: block;
   font-size: 1.1rem;
   border-radius: 15px;
@@ -6441,7 +6713,7 @@ ul.share-sns-btn-list li a.twitter {
   background: #00a7e9;
 }
 ul.share-sns-btn-list li.caps {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   padding-right: 11rem;
   font-size: 1.2rem;
   position: relative;
@@ -6582,12 +6854,12 @@ footer ul li{
 }
 .annai-text {
 	text-align: center;
-	font-family: "Sawarabi Gothic";
+	font-family: "YuGothic Medium";
 	font-size: 2rem;}
 
 }
 .tt_time {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   color: #e85a25;
   font-size: 1.6rem;
   margin: 0;
@@ -6701,7 +6973,7 @@ a.bt_loadmore:hover {
   display: none;
 }
 .artist_detail .artist_catname {
-  font-family: "Sawarabi Gothic";
+  font-family: "YuGothic Medium";
   text-align: center;
   padding: 6rem 0;
   font-size: 1.6rem;
